@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   items = [
-  	'image 1',
-  	'image 2',
-  	'image 3'
+  	'https://cdn.pixabay.com/photo/2016/04/20/17/53/giraffe-1341638_1280.jpg',
+  	'https://cdn.pixabay.com/photo/2016/03/28/09/43/giraffe-1285209_1280.jpg',
+  	'https://cdn.pixabay.com/photo/2017/01/05/13/26/giraffe-1955126_1280.jpg'
   ];
 }

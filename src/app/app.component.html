@@ -4,8 +4,8 @@
 
 <div>
 	<ul>
-		<li *ngFor="let item of items"> 
-			{{item}}
+		<li *ngFor="let item of items">
+			<app-image [imageUrl]="item"></app-image>
 		</li>
 	</ul>
 </div>

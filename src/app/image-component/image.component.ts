@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
 	selector: 'app-image',
-	template: '<p>This is an image!</p>',
+	template: '<img src="{{imageUrl}}" />',
 })
 
 export class ImageComponent {
-
+	@Input() imageUrl;
 }
