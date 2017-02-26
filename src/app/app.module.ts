@@ -9,6 +9,8 @@ import { profileComponent } from './profile-component/profile.component';
 import { shortProfileComponent } from './shortProfile-component/shortProfile.component';
 import { similarListComponent } from './similarList-component/similarList.component';
 
+import { NameLabel } from './pipes/name-label.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +18,7 @@ import { similarListComponent } from './similarList-component/similarList.compon
     profileComponent,
     shortProfileComponent,
     similarListComponent,
+    NameLabel
   ],
   imports: [
     BrowserModule,
