@@ -12,6 +12,8 @@ import { NameLabel } from './pipes/name-label.pipe';
 
 import { AppRoutingModule } from './app.routing';
 import { ShopComponent } from './shop/shop.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { ShopComponent } from './shop/shop.component';
     similarListComponent,
     NameLabel,
     ShopComponent,
+    AboutComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
