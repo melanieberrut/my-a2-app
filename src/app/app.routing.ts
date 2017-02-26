@@ -6,6 +6,10 @@ import { ShopComponent } from './shop/shop.component';
 const routes: Routes = [
 	// json format- the paths
 	{
+		// Default
+		path: '', pathMatch: 'full', redirectTo: 'shop'
+	},
+	{
 		path: 'shop', component: ShopComponent
 	}
 ];
