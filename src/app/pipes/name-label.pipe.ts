@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 export class NameLabel implements PipeTransform {
 	// (value: @OutgoingType) : @InGoingType
-	transform(value: string): String {
-		return 'Name: ' + value;
+	transform(value: string, prepend: String): String {
+		return prepend + value;
 	}
 }

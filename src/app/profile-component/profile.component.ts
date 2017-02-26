@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 	`
 		<div>
 			<h3>Profile</h3>
-			<p>{{ name | nameLabel }}</p>
+			<p>{{ name | nameLabel: 'Name: ' }}</p>
 			<p>Age: {{ age }}</p>
 			<p>Hotness: {{ hotness }}</p>
 		</div>
