@@ -8,8 +8,10 @@ import { ImageComponent } from './image-component/image.component';
 import { profileComponent } from './profile-component/profile.component';
 import { shortProfileComponent } from './shortProfile-component/shortProfile.component';
 import { similarListComponent } from './similarList-component/similarList.component';
-
 import { NameLabel } from './pipes/name-label.pipe';
+
+import { AppRoutingModule } from './app.routing';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +20,14 @@ import { NameLabel } from './pipes/name-label.pipe';
     profileComponent,
     shortProfileComponent,
     similarListComponent,
-    NameLabel
+    NameLabel,
+    ShopComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

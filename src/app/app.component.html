@@ -4,6 +4,22 @@
 
 <div>
 	<ul>
+		<li>
+			<a href="#" routerLink="/shop">Shop</a>
+		</li>
+		<li>
+			<a href="#" routerLink="/about">About</a>
+		</li>
+		<li>
+			<a href="#" routerLink="/contact">Contact</a>
+		</li>
+	</ul>
+</div>
+
+<router-outlet></router-outlet>
+
+<div>
+	<ul>
 		<li *ngFor="let item of items">
 			<app-image [imageUrl]="item"></app-image>
 		</li>
