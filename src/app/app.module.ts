@@ -5,11 +5,17 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ImageComponent } from './image-component/image.component';
+import { profileComponent } from './profile-component/profile.component';
+import { shortProfileComponent } from './shortProfile-component/shortProfile.component';
+import { similarListComponent } from './similarList-component/similarList.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImageComponent
+    ImageComponent,
+    profileComponent,
+    shortProfileComponent,
+    similarListComponent,
   ],
   imports: [
     BrowserModule,
